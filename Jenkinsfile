@@ -11,15 +11,15 @@ pipeline {
                 sh 'npm --version'
             }
         }
-        stage('Build') {
-            steps {
-                sh 'ls'
-                sh 'ls /var/lib/jenkins/workspace/loan-payment-app-pipeline/'
-            }
-        }
-        stage('Deploy') {
-            steps {
-            }
-        }
+        //stage('Build') {
+        //    steps {
+        //        sh 'ls'
+        //        sh 'ls /var/lib/jenkins/workspace/loan-payment-app-pipeline/'
+        //    }
+        //}
+        //stage('Deploy') {
+        //    steps {
+        //    }
+        //}
     }
 }
