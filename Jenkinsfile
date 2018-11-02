@@ -15,7 +15,7 @@ pipeline {
             steps {
                 sh 'ls'
                 sh 'ls /var/lib/jenkins/workspace/loan-payment-app-pipeline/'
-                sh 'npm install'
+                sh 'sudo npm install'
             }
         }
         stage('Deploy') {
