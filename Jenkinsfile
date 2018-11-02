@@ -15,12 +15,10 @@ pipeline {
             steps {
                 sh 'ls'
                 sh 'ls /var/lib/jenkins/workspace/loan-payment-app-pipeline/'
-                sh 'npm install'
             }
         }
         stage('Deploy') {
             steps {
-                sh 'npm run serve'
             }
         }
     }
